@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="/image.js"></script>
+    <script src="code.js">   </script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Filter </title>
+</head>
+
+<body>
+    <div id="div1">
+        <h1> Welcome to Image Fun </h1> 
+    </div>
+
+    <canvas id="d1">
+    </canvas>
+    <p>
+        <input value="make lime" type="button" onclick="colorchange()">
+        <input value="add" type="button" onclick="addText()">
+        <input value="clear" type="button" onclick="doclear()">
+    </p>
+    <canvas id="d2">
+    </canvas>
+    <canvas id="d3">
+    </canvas>
+    <canvas id=d4>
+    </canvas>
+    <br style="line-height: 100px;">
+    <input type="color" id="clr" value="#000000" onchange="doColor()">
+
+    <input type="range" value="10" min="10" max="100" id="sldr" oninput="doSquare()">
+    <br> <br> <br> <br> <br>
+    <input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()">
+    <input type="button" value="Make grey" onclick="makegrey()">
+    <br> <br>
+    Choose foreground:
+    <input type="file" multiple="false" accept="image/*" id="fgimage" onchange="displayfg()">
+    Choose background:
+    <input type="file" multiple="false" accept="image/*" id="bgimage" onchange="displaybg()">
+    <br> <br>
+
+    <input type="button" value="change background" onclick="GreenScreen()">
+    <br> <br>
+    <input type="range" value="1" min="1" max="255" id="green" oninput="setGreenThreshold()">
+</body>
+
+
+
+</html>

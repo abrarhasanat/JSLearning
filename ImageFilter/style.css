@@ -1,0 +1,30 @@
+body { 
+    background-color: bisque;
+}
+#div1  { 
+   background-color: darkgreen;
+   height: 100px;
+   width: 100vw; 
+   position:absolute;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+}
+#div2 { 
+    position:absolute; 
+    top:120px; 
+    left:900px;
+
+}
+h1 { 
+   font-family: 'Comic Sans MS' ;
+}
+canvas  {
+    position: absolute;
+    top: 120px;
+    height: 600px; 
+    width: 800px;
+    border: black;
+    border-radius: 5px;
+    border-style: solid;
+}

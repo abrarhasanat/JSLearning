@@ -1,0 +1,33 @@
+div  {
+    width: 200px;
+    height: 200px;
+}
+#d1 { 
+    background-color: yellow;
+}
+#d2  {
+    position: absolute;
+    right: 50px;
+    top:7px ;
+    background-color: blue;
+}
+.black { 
+    background-color: black; 
+    color: white ;
+}
+.orange {
+    background-color: orange;
+    color: blue;  
+}
+.red { 
+    background-color: red;
+    color:white ;
+}
+canvas  {
+    width:600px ;
+    height: 400px;
+    margin: 10px;
+    border: 1px solid lightgray ; 
+    
+}
+
